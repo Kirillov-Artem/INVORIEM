@@ -10,11 +10,14 @@ owl.owlCarousel({
         },
         375: {
             items: 2,
-            margin: 200,
+            margin: 48,
+
+            loop: true,
         },
         460: {
             margin: 48,
-            items: 2,
+            items: 3,
+            loop: true,
         },
     },
 });
@@ -60,12 +63,12 @@ mobileBtn.onclick = function () {
     navMobile.classList.remove("none");
     mobileBtn.classList.add("none");
     mobileBtnClose.classList.remove("none");
-    document.body.classList.add("no-scroll");
+    // document.body.classList.add("no-scroll");
 };
 
 mobileBtnClose.onclick = function () {
     navMobile.classList.add("none");
     mobileBtnClose.classList.add("none");
     mobileBtn.classList.remove("none");
-    document.body.classList.remove("no-scroll");
+    // document.body.classList.remove("no-scroll");
 };

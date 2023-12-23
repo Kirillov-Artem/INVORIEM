@@ -212,6 +212,9 @@ main {
 }
 
 /* SLIDER */
+.slider {
+    width: 2193px;
+}
 
 .owl-item {
     max-width: 725px;

@@ -64,6 +64,7 @@
 
     /* NAV MOBILE */
     .nav-mobile {
+        overflow-y: scroll;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -161,15 +162,15 @@
         overflow-x: hidden;
     }
 
-    .owl-item {
+    /* .owl-item {
         max-width: 223px;
         max-height: 264px;
-    }
+    } */
 
-    .owl-item.active {
+    /* .owl-item.active {
         max-width: 224px;
-        max-height: 264px;
-    }
+        max-height: 264px;  
+    } */
 
     .slide__img {
         min-width: 224px;
@@ -293,5 +294,22 @@
     .video__picture {
         width: 327px;
         min-height: 340px;
+    }
+
+    .section-video {
+        padding-bottom: 80px;
+    }
+
+    .footer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .footer-email a {
+        font-size: 16px;
+    }
+
+    .copyright a {
+        font-size: 14px;
     }
 }
