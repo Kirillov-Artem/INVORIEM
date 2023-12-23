@@ -60,10 +60,12 @@ mobileBtn.onclick = function () {
     navMobile.classList.remove("none");
     mobileBtn.classList.add("none");
     mobileBtnClose.classList.remove("none");
+    document.body.classList.add("no-scroll");
 };
 
 mobileBtnClose.onclick = function () {
     navMobile.classList.add("none");
     mobileBtnClose.classList.add("none");
     mobileBtn.classList.remove("none");
+    document.body.classList.remove("no-scroll");
 };

@@ -35,6 +35,25 @@ body {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
 }
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
 /* HEADER */
 
 /* HEADER-CONTENT */
@@ -279,6 +298,10 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+    height: 100%;
+}
+
+.video__picture img {
     height: 100%;
 }
 .video__object {

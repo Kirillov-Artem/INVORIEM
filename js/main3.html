@@ -117,7 +117,15 @@
                             <button class="video__btn" id="video-btn">
                                 <img src="./../img/aboba/bnt-play.svg" alt="Play" />
                             </button>
-                            <img class="video__picture" src="./../img/aboba/video-picture.jpg" alt="Video" />
+
+                            <picture class="video__picture">
+                                <source
+                                    media="(max-width: 600px)"
+                                    srcset="./../img/aboba/video-picture-mobile.jpg"
+                                />
+                                <img src="./../img/aboba/video-picture.jpg" alt="Preview" />
+                            </picture>
+
                             <video class="video__object" id="video-file" loop>
                                 <source src=http://techslides.com/demos/sample-videos/small.mp4
                                 type=video/mp4>
